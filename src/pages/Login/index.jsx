@@ -4,7 +4,7 @@ import styles from './login.module.css'
 import { Link } from 'react-router-dom'
 
 export function Login() {
-  const [name, setName] = useState('')
+  const [name, setName]   = useState('')
   const [email, setEmail] = useState('')
 
   function handleLogin(e){
